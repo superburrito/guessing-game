@@ -2,10 +2,8 @@ body {
   background-color: #c6e2ff
 }
 
-p {
-  font-family: cursive; 
-}
 
-.header {
-  font-weight: bold;
+p {
+  font-family: "Georgia"; 
+  font-style: normal;
 }
