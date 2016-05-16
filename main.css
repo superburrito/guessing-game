@@ -7,3 +7,7 @@ p {
   font-family: "Georgia"; 
   font-style: normal;
 }
+
+form {
+  color: gray;
+}
