@@ -11,3 +11,8 @@ p {
 form {
   color: gray;
 }
+
+.highlighted {
+  font-weight: bold;
+  font-size: 20px;
+}

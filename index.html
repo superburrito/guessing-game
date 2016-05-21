@@ -7,15 +7,23 @@
     <center>
      <img src="http://www.shock-collars-for-dogs.com/wp-content/uploads/2014/03/dog_question-300x225.jpg" alt="Dog Image" style = "border: 10px solid black;">
     <h3 class="header">Welcome to the Guessing Game!</h2>
-    <p>In this game, you have to choose a number between 1-100. You have only 5 tries!</p>
+    <p id="playerview">In this game, you have to choose a number between 1-100. You have only 5 tries!</p>
+    <p id="counter">Tries Left: 5</p>
     <br>
     <br>
-    <br>
-    <form>
     Guess a Number:<br>
-    <input type = "text" name="numberguess"><br>
-    <input type = "submit" value="Submit"><br>
-    <input type = "submit" value="Get Help"><br>
+    <input id="guessnumber" type="text" name="numberguess"><br><br>
+    <button id="submission" type="button" 
+            onclick="checkGuess()">
+            Submit Your Guess</button><br>
+    <button id="gethint" type ="button"
+            onclick="provideHint()">
+    Get a Hint</button><br>
+    <button id="playagain" type ="button"
+            onclick="playAgain()">
+    Play Again</button>
+    <script src="jquery-2.2.4.min.js"></script>
+    <script src="guessingGame.js"></script>
   </body>
 </html>
 
